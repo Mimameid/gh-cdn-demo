@@ -85839,7 +85839,8 @@ const tO = {
     flex: 1,
     justifyContent: "space-between",
     padding: "$sm",
-    withBorder: !0
+    withBorder: !0,
+    maxWidth: "420px"
   }
 };
 bn(tO);
@@ -98076,7 +98077,7 @@ function iht({ pricePrediction: t, ...e }) {
     /* @__PURE__ */ N.jsx(
       Xme,
       {
-        title: r("PriceChart.title"),
+        title: r("title"),
         rightHeaderSection: /* @__PURE__ */ N.jsx(nht, {}),
         renderContent: ({ width: n, height: i }) => /* @__PURE__ */ N.jsxs(N.Fragment, { children: [
           /* @__PURE__ */ N.jsx(
